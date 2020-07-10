@@ -1,0 +1,27 @@
+{
+  "name": "backgrounds-and-gradients",
+  "version": "1.0.0",
+  "description": "A simple clone of the old Apple webpage",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/disco-trooper/backgrounds-and-gradients.git"
+  },
+  "author": "disco-trooper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/disco-trooper/backgrounds-and-gradients/issues"
+  },
+  "homepage": "https://github.com/disco-trooper/backgrounds-and-gradients#readme",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  }
+}
