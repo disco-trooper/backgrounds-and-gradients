@@ -4,7 +4,9 @@
   "description": "A simple clone of the old Apple webpage",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fix-code": "prettier-eslint --write 'src/**/*.{js,jsx}'",
+    "fix-styles": "prettier-stylelint --write 'src/**/*.{css,scss}'"
   },
   "repository": {
     "type": "git",
@@ -17,11 +19,15 @@
   },
   "homepage": "https://github.com/disco-trooper/backgrounds-and-gradients#readme",
   "devDependencies": {
-    "eslint": "^7.2.0",
+    "eslint": "^7.4.0",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "prettier-eslint": "^11.0.0"
+  },
+  "dependencies": {
+    "postcss-syntax": "^0.36.2"
   }
 }

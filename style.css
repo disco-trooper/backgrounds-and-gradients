@@ -1,0 +1,348 @@
+/* CSS Reset Start */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* CSS Reset End */
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: Lucida-Grande;
+  src: url(./assets/fonts/lucidagrande.ttf);
+}
+
+#hero {
+  height: 538px;
+  background-image: url('./assets/images/hero.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/******** NAVBAR START ********/
+
+nav {
+  display: flex;
+  box-sizing: border-box;
+  max-width: max-content;
+  position: relative;
+  top: 20px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    rgb(138, 138, 138) 0%,
+    rgb(110, 110, 110) 50%,
+    rgb(94, 94, 94) 50%,
+    rgb(116, 116, 116) 100%
+  );
+  border-radius: 4px;
+}
+
+nav > a {
+  padding: 10px 30px;
+  box-sizing: border-box;
+  font-size: 12px;
+  height: 36px;
+  font-family: Lucida-Grande;
+  line-height: 17px;
+  border-style: solid;
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  border-color: rgb(91, 91, 91);
+  border-width: 0 1px 0 0;
+}
+
+nav > a:nth-child(1) {
+  display: flex;
+}
+
+nav > a:last-child {
+  border-width: 0 0 0 0;
+}
+
+.fa-apple {
+  font-size: 22px;
+  align-self: center;
+}
+
+nav > a:hover {
+  background-image: linear-gradient(
+    rgba(93, 93, 93) 0%,
+    rgb(67, 67, 67) 50%,
+    rgb(59, 59, 59) 50%,
+    rgb(87, 87, 87) 100%
+  );
+}
+
+nav > a:last-child:hover {
+  background-image: linear-gradient(
+    rgb(138, 138, 138) 0%,
+    rgb(110, 110, 110) 50%,
+    rgb(94, 94, 94) 50%,
+    rgb(116, 116, 116) 100%
+  );
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.a i {
+  color: white;
+}
+
+input[type='text'] {
+  width: 106px;
+  font-size: 12px;
+  height: 15px;
+  line-height: 19.5px;
+  padding: 0 18px 0 22px;
+  background-image: linear-gradient(
+    rgba(132, 132, 132) 0%,
+    rgb(127, 127, 127) 50%,
+    rgb(110, 110, 110) 50%,
+    rgb(118, 118, 118) 100%
+  );
+  border-radius: 12px;
+  vertical-align: center;
+  border: none;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 2px 1px 0px inset,
+    rgba(255, 255, 255, 0.2) 0px 1px 0px 0px;
+  transition: width 0.5s ease-in-out;
+}
+
+input[type='text']:focus {
+  width: 170px;
+}
+
+/******** NAVBAR END ********/
+
+/******** ACTION CALL START ********/
+
+#action-call {
+  margin: 0 auto;
+  margin-top: 140px;
+  width: max-content;
+}
+
+#verse-title {
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 55px;
+  text-align: center;
+  color: white;
+}
+
+.verse-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+#verse-watch {
+  margin-top: 30px;
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.fa-play-circle {
+  font-size: 28px;
+  vertical-align: text-top;
+}
+
+/******** ACTION CALL END ********/
+
+#promo {
+  margin-top: 2px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  column-gap: 2px;
+}
+
+footer {
+  width: 100%;
+  height: 90px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  justify-content: center;
+  align-content: center;
+  row-gap: 18px;
+}
+
+#footer-first-text {
+  margin-top: -2%;
+  margin-left: 32%;
+}
+
+#footer-second-text {
+  margin-top: -2%;
+  margin-right: 29%;
+}
+
+#footer-third-text {
+  margin-left: 32%;
+}
+
+.footer-text {
+  color: rgb(110, 110, 110);
+  font-family: Lucida Grande, Helvetica, Arial, Verdana, sans-serif;
+  font-size: 10.0008px;
+  font-stretch: 100%;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 400;
+  height: 12px;
+  max-width: 510px;
+  line-height: 12.001px;
+}
+
+.footer-link {
+  color: #08c;
+  text-decoration: none;
+}
+
+.border-right {
+  border-right: 1px solid #ccc;
+  margin-right: 0.6em;
+  padding-right: 0.6em;
+}
