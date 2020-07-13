@@ -9,7 +9,7 @@
   </a>
 </p>
 
-> A simple clone of the old Apple webpage
+> A simple clone of old Apple webpage made for gradient practice purposes
 
 ### ✨ [Demo](https://disco-trooper.github.io/backgrounds-and-gradients/)
 
