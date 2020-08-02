@@ -6,7 +6,7 @@
   </a>
 </p>
 
-> A simple clone of old Apple webpage made for gradient practice purposes
+> A simple clone of old Apple webpage made for gradient practice purposes. Project made as a part of [The Odin Project's curriculum](https://www.theodinproject.com/courses/html-and-css/lessons/building-with-backgrounds-and-gradients).
 
 ### ✨ [Demo](https://disco-trooper.github.io/backgrounds-and-gradients/)
 
